@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-label="Terminal: whoami – Marie Christin Eilers, Product Owner with agricultural domain expertise. Impact: Just Farming 0 to 28,000 users, led product. Invoicing: first invoice in minutes, not a 2-hour setup. John Deere: customer insight and pricing. Now: Claude Code plugins, AI-native SDLC. Motto: Make it simple, but significant.">
   <style>
     text { white-space: pre; }
-    .l { opacity: 0; animation: in .01s linear forwards; }
-    @keyframes in { to { opacity: 1; } }
+    .l { animation: in .01s linear backwards; }
+    @keyframes in { from, to { opacity: 0; } }
     .cur { animation: blink 1.1s steps(1) infinite; }
     @keyframes blink { 50% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
